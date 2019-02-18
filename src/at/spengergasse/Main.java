@@ -6,7 +6,9 @@ import static java.lang.Integer.parseInt;
 
 public class Main {
 
-
+    private int alter;
+    private int height;
+    private int hgs;
     public static void main(String[] args) {
 
 
@@ -99,6 +101,8 @@ public class Main {
             }
 
 
+
+
         }
         if(alter ==20 || alter == 21 || alter == 22 || alter ==23 ||alter ==24){
             System.out.println("Bitte geben sie eine Größe zwischen 150 und 184:");
@@ -184,9 +188,7 @@ public class Main {
 
 
         }
-        else{
-            System.out.println("Bitte ein  zugelassen Wert eingeben");
-        }
+
 
 
 
@@ -195,5 +197,7 @@ public class Main {
 
         sc.close();
 
+
     }
+
 }
