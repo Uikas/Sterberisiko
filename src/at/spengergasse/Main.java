@@ -6,9 +6,7 @@ import static java.lang.Integer.parseInt;
 
 public class Main {
 
-    private int alter;
-    private int height;
-    private int hgs;
+
     public static void main(String[] args) {
 
 
